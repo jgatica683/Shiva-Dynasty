@@ -1,18 +1,18 @@
 /*   STEP 1   */
-export const leagueID = "your_league_id"; // your league ID
-export const leagueName = "your_league_name"; // your league name
+export const leagueID = "1180195997758558208"; // your league ID
+export const leagueName = "Shiva Dynasty League"; // your league name
 export const dues = 100; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>In a world full of casual fantasy leagues and one-season wonders, a group of slightly obsessed football fanatics said, "What if we made this way more complicated... forever?" Thus the Shiva Dynasty League was born.</p>
+  <p>Since 2022, we've been trading picks like Wall Street brokers, hoarding rookies like Pokemon cards, and nursing heartbreaks from 0.2-point Monday night losses. This isn't just fantasy football - it's fantasy football with commitment issues (or too much commitment, depending on how you look at it).</p>
+  <p>Every season brings new drama, wild trades, questionable decisions, and at least one team starting a player on IR. It's chaotic, strategic, and gloriously unpredictable - just the way we like it.</p>
+  <p>A league created on wildly mediocre football knowledge, and aspirations for glory. This league is the greatest thing created since sliced bread.</p>
+  <p>Welcome to the Shiva Dynasty League</p>
+  <p>Where trash talk is inevitable and rebuilding never really ends.</p>
 `;
 
 /*   STEP 3   */
