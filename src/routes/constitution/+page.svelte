@@ -238,11 +238,11 @@
     <p>The draft order each year will be a linear draft in reverse order of the previous year’s regular season standings.</p>
 
     <h3 bind:this={twoTwo}>2.2 Rookie Drafts</h3>
-    <p>Rokkie drafts will consist of 5 rounds of drafting, with 8 hours alotted for each pick. To make room for the incoming players, benches will be expanded by (5) spots. These spots will be removed in mid-August, at which point you will need to have cut the necessary players.</p>
+    <p>Rokkie drafts will consist of 5 rounds of drafting, with 8 hours alotted for each pick. Players must be dropped in order to make room for incoming players, or they need to be moved to Taxi Squad.</p>
     <p>Any spots not filled during the draft, can be filled immediately afterwards from the waiver wire.</p>
     
     <h3 bind:this={twoThree}>2.3 Draft Day Trades</h3>
-    <p>If a trade is being made during the draft, one or both parties can alert the commissioner to pause the draft to allow for extra time to negotiate the trade.</p>
+    <p>Any trades can be made as usual during the draft, both parties must agree upon the trade before the league members time expires for making their draft pick.</p>
     
     <h2 class="sectionHeading" bind:this={three}>Section 3 Scoring System</h2>
 
@@ -258,7 +258,7 @@
     <p>If two teams finish with the same record the tiebreakers will go as followed:</p>
 
     <ol>
-        <li>Points For</li>
+        <li>Max Points Forced</li>
         <li>Head 2 Head Record</li>
         <li>Division Record</li>
         <li>Total Points Against</li>
@@ -290,8 +290,8 @@
     <h3 bind:this={sevenTwo}>7.2 Payout</h3>
     <p>League payout is structured as follows:</p>
     <ul>
-        <li>1st place: {dues * 45}$</li>
-        <li>2nd place: {dues *5}$</li>
+        <li>1st place: {450}$</li>
+        <li>2nd place: {50}$</li>
     </ul>
     <p>In the event that a manager was fined due to late payment, their extra fee will be added to the winner's payout. Similarly, if new managers come into the league and the payout is smaller, the difference will come out of the winner's prize.</p>
     
