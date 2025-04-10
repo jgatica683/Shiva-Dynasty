@@ -26,7 +26,6 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     {
-      "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Jayden Gatica",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ankeny, IA", // (optional)
@@ -39,7 +38,6 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Travis Northway",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "IA", // (optional)
@@ -52,7 +50,6 @@ export const managers = [
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
     {
-      "roster": 3,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Josh Hall",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ankeny, IA", // (optional)
@@ -64,7 +61,6 @@ export const managers = [
       "tradingScale": 10, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-        "roster": 4,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Ant Frein",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Altoona, IA", // (optional)
@@ -76,7 +72,6 @@ export const managers = [
       "tradingScale": 1, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-        "roster": 5,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Frankie Frein",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Des Moines, IA", // (optional)
@@ -88,7 +83,6 @@ export const managers = [
       "tradingScale": 9, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-                "roster": 6,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Spencer Farrell",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ankeny, IA", // (optional)
@@ -100,7 +94,6 @@ export const managers = [
       "tradingScale": 3, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-                "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Kenny Hall",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "unknown", // (optional)
@@ -112,7 +105,6 @@ export const managers = [
       "tradingScale": 3, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-                "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Steph Frein",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Ankeny, IA", // (optional)
@@ -124,7 +116,6 @@ export const managers = [
       "tradingScale": 5, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-                "roster": 9,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Cody Price",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Des Moines, IA", // (optional)
@@ -136,7 +127,6 @@ export const managers = [
       "tradingScale": 8, // 1 - 10
       "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     },
-                "roster": 10,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
       "name": "Chambers",
       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
       "location": "Cali", // (optional)
