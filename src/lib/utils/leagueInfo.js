@@ -25,119 +25,119 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 // To omit an optional field, set it's value to null
 
 export const managers = [
-    {
-      "name": "Jayden Gatica",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Ankeny, IA", // (optional)
-      "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "QB, WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 8, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-    {
-      "name": "Travis Northway",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "IA", // (optional)
-      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "WR, RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 5, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-    {
-      "name": "Josh Hall",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Ankeny, IA", // (optional)
-      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "la", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 10, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      "name": "Ant Frein",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Altoona, IA", // (optional)
-      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 1, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      "name": "Frankie Frein",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Des Moines, IA", // (optional)
-      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "WR, QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 9, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      "name": "Spencer Farrell",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Ankeny, IA", // (optional)
-      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "mn", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "WR, TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 3, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      "name": "Kenny Hall",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "unknown", // (optional)
-      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "la", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 3, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      "name": "Steph Frein",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Ankeny, IA", // (optional)
-      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "RB, WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 5, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      "name": "Cody Price",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Des Moines, IA", // (optional)
-      "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "WR, RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 8, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
-      "name": "Chambers",
-      "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
-      "location": "Cali", // (optional)
-      "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
-      "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
-      "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
-      "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
-      "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
-      "tradingScale": 7, // 1 - 10
-      "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
-    },
+    // {
+    //   "name": "Jayden Gatica",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "Ankeny, IA", // (optional)
+    //   "fantasyStart": 2011, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "den", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "QB, WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 8, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    // {
+    //   "name": "Travis Northway",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "IA", // (optional)
+    //   "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "WR, RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 5, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    // {
+    //   "name": "Josh Hall",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "Ankeny, IA", // (optional)
+    //   "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "la", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 10, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    //   "name": "Ant Frein",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "Altoona, IA", // (optional)
+    //   "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "nyj", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 1, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    //   "name": "Frankie Frein",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "Des Moines, IA", // (optional)
+    //   "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "WR, QB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 9, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    //   "name": "Spencer Farrell",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "Ankeny, IA", // (optional)
+    //   "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "mn", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "WR, TE", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 3, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    //   "name": "Kenny Hall",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "unknown", // (optional)
+    //   "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "la", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 3, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    //   "name": "Steph Frein",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "Ankeny, IA", // (optional)
+    //   "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "gb", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "RB, WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 5, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    //   "name": "Cody Price",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "Des Moines, IA", // (optional)
+    //   "fantasyStart": 2022, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "sf", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Win Now", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "WR, RB", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Vets", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 8, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
+    //   "name": "Chambers",
+    //   "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+    //   "location": "Cali", // (optional)
+    //   "fantasyStart": 2023, // (optional) when did the manager start playing fantasy football
+    //   "favoriteTeam": "sea", // (optional) favorite NFL team, (follows convention: nyj, sea, mia, etc.) MUST BE LOWERCASE
+    //   "mode": "Rebuild", // (optional) 'Win Now', 'Dynasty', or 'Rebuild' (anything else and you will need to add a new png to /static/ similar to the 'Rebuild.png' and 'Win Now.png' currently in there)
+    //   "valuePosition": "WR", // (optional) Favorite position (QB, WR, RB, TE, etc.)
+    //   "rookieOrVets": "Rookies", // (optional) 'Rookies' or 'Vets' (anything else and you will need to add a new png to /static/ similar to the 'Rookies.png' and 'Vets.png' currently in there)
+    //   "tradingScale": 7, // 1 - 10
+    //   "preferredContact": "Text", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
+    // },
   ]
   
   
